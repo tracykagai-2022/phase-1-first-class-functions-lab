@@ -1,10 +1,7 @@
-// should return a new array containing the first two drivers from the passed-in array
 const returnFirstTwoDrivers = function(driversArray) {
     let drivers = [...driversArray.slice(0, 2)];
     return drivers;
 }
-
-//should return an array of the last two drivers
 const returnLastTwoDrivers = function(driversArray) {
     let drivers = [...driversArray.slice(driversArray.length - 2)];
     return drivers;
@@ -34,6 +31,3 @@ const fareTripler = function(fare) {
 function selectDifferentDrivers(driversArray, fn) {
     return fn(driversArray);
 }
-
-
-  
