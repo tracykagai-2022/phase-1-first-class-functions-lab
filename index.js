@@ -1,4 +1,4 @@
-[14:32, 12/10/2022] Boniface Moringa School Online: /should return a new array containing the first two drivers from the passed-in array
+// should return a new array containing the first two drivers from the passed-in array
 const returnFirstTwoDrivers = function(driversArray) {
     let drivers = [...driversArray.slice(0, 2)];
     return drivers;
